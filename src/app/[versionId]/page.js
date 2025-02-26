@@ -1,13 +1,13 @@
 'use client';
 
 import { useState } from 'react';
-import NavToggle from './components/NavToggle';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
-import Match from './components/Match';
-import Video from './components/Video';
+import NavToggle from '../components/NavToggle';
+import Resume from '../components/Resume';
+import Portfolio from '../components/Portfolio';
+import Match from '../components/Match';
+import Video from '../components/Video';
 
-export default function Home() {
+export default function VersionedResume() {
   const [activeTab, setActiveTab] = useState('Resume');
 
   const renderContent = () => {

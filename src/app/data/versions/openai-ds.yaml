@@ -1,0 +1,92 @@
+version:
+  id: openai-ds
+  name: Data Scientist - OpenAI
+  description: Resume tailored for OpenAI Data Scientist role
+  video: https://www.youtube.com/embed/dQw4w9WgXcQ
+  messages:
+    - title: AI/ML Expertise
+      content: This version emphasizes your deep learning and NLP experience.
+    - title: Research Background
+      content: Highlights your publications and contributions to the ML community.
+    - title: Technical Depth
+      content: Showcases your experience with PyTorch, TensorFlow, and distributed systems.
+    - title: Ethics & Responsibility
+      content: Features your leadership in AI ethics and responsible AI development.
+
+header:
+  name: John
+  email: john.doe@email.com
+  phone: (123) 456-7890
+  location: New York, NY
+  linkedin: linkedin.com/in/johndoe
+
+education:
+  university: Stanford University
+  degree: M.S. Computer Science
+  gpa: 3.9/4.0
+  period: 2019 - 2021
+
+skills:
+  technical:
+    - Machine Learning
+    - Deep Learning
+    - PyTorch
+    - TensorFlow
+    - Natural Language Processing
+    - Large Language Models
+    - Reinforcement Learning
+    - Python
+    - Distributed Computing
+    - Neural Networks
+  tools:
+    - MLflow
+    - Kubernetes
+    - Docker
+    - AWS/GCP
+    - Git
+    - Weights & Biases
+    - Ray
+    - CUDA
+    - Hugging Face
+    - JAX
+
+projects:
+  - title: Large Language Model Optimization
+    role: Research Lead
+    dateRange: Jan 2023 - Present
+    achievements:
+      - Developed novel attention mechanism reducing computational complexity by 40%
+      - Published research paper at NeurIPS 2023 on efficient transformer architectures
+      - Created open-source library for LLM fine-tuning used by 5000+ developers
+
+experience:
+  - company: DeepMind
+    role: Research Scientist
+    dateRange: 2021 - Present
+    achievements:
+      - Led team of 4 researchers in developing new reinforcement learning algorithms
+      - Improved model training efficiency by 60% through distributed computing
+      - Published 3 papers in top-tier conferences (ICML, NeurIPS)
+  - company: Tesla
+    role: Machine Learning Engineer
+    dateRange: 2019 - 2021
+    achievements:
+      - Developed computer vision models for autonomous driving
+      - Reduced false positive rate by 45% in object detection
+      - Implemented real-time inference pipeline processing 1000+ fps
+
+leadership:
+  - title: AI Ethics Committee
+    role: Committee Chair
+    dateRange: 2022 - Present
+    achievements:
+      - Led initiative for responsible AI development practices
+      - Organized workshops on AI safety attended by 300+ researchers
+      - Published comprehensive guidelines for ethical AI deployment
+
+beyondWork:
+  - Kaggle Competitions Grandmaster (Rank < 100)
+  - Active contributor to PyTorch ecosystem
+  - Research paper reviewer for ML conferences
+  - Host weekly ML reading group with 50+ members
+  - Mentor for AI4ALL program supporting underrepresented groups in AI
