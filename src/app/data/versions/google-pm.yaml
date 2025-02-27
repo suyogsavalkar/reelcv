@@ -5,11 +5,11 @@ version:
   video: https://www.youtube.com/embed/dQw4w9WgXcQ
   messages:
     - title: Product Management Focus
-      content: This version highlights your product strategy and leadership experience at Meta and Amazon.
+      content: This version highlights your **product strategy** and ##leadership experience## at Meta and Amazon.
     - title: Data-Driven Decisions
-      content: Emphasizes your experience with analytics tools and A/B testing methodologies.
+      content: Emphasizes your experience with **analytics tools** and ##A/B testing methodologies##.
     - title: Cross-Functional Leadership
-      content: Showcases your ability to work with engineering, design, and business teams.
+      content: Showcases your ability to work with **engineering**, **design**, and ##business teams##.
 
 header:
   name: John Doe

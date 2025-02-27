@@ -31,6 +31,7 @@ export async function GET(request, { params }) {
       skills: [...(data.skills?.technical || []), ...(data.skills?.tools || [])],
       projects: data.projects || [],
       experiences: data.experience || [],
+      modal_experience: data.modal_experience || [],
       leadership: data.leadership || [],
       hobbies: data.beyondWork || []
     };
