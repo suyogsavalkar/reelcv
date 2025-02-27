@@ -3,7 +3,9 @@ version:
   name: Product Specialist - Codeium
   description: Resume tailored for Codeium Product Specialist role
   video: https://www.youtube.com/embed/dQw4w9WgXcQ
-  messages:
+  messages: 
+    - title: First of all
+      content: I absolutely loved Windsurf ❤️. Please keep the great work coming.
     - title: JD requirement - Excellent communications, interpersonal, and presentation skills
       content: I recently got to read a recommendation letter written by my professor, where she writes - "an external assessor, impressed by Suyog's clear articulation of complex concepts, specifically requested that he deliver the entire seminar independently. The assessor also recommended that Suyog should consider pursuing an MBA."
     - title: JD requirement - Past software development experience
