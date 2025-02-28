@@ -15,12 +15,12 @@ const formatText = (text) => {
   if (!text) return '';
   
   // Replace bold syntax (**text**) with styled span
-  let formattedText = text.replace(/\*\*(.+?)\*\*/g, '<span class="font-bold relative group cursor-help">$1<div class="hidden group-hover:block absolute left-full ml-2 top-0 z-50 transition-opacity duration-200"><div class="bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg min-w-[200px] break-words">Highlighted achievement or skill</div></div></span>');
+  let formattedText = text.replace(/\*\*(.+?)\*\*/g, '<span class="font-bold relative group cursor-help">$1<div class="hidden group-hover:block absolute left-0 sm:left-full ml-0 sm:ml-2 top-full sm:top-0 z-50 transition-opacity duration-200 w-full sm:w-auto"><div class="bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg min-w-[200px] break-words">Highlighted achievement or skill</div></div></span>');
   
   // Replace highlight syntax (@@text@@[message]) with styled span
   formattedText = formattedText.replace(/@@(.+?)@@(?:\[(.+?)\])?/g, (match, text, message) => {
     const tooltipMessage = message || 'Key highlight';
-    return `<span class="border-b-4 border-blue-200 relative group cursor-help">${text}<div class="hidden group-hover:block absolute left-full ml-2 top-0 z-50 transition-opacity duration-200"><div class="bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg min-w-[200px] max-w-[300px] break-words">${tooltipMessage}</div></div></span>`;
+    return `<span class="border-b-4 border-blue-200 relative group cursor-help">${text}<div class="hidden group-hover:block absolute left-0 sm:left-full ml-0 sm:ml-2 top-full sm:top-0 z-50 transition-opacity duration-200 w-full sm:w-auto"><div class="bg-gray-800 text-white text-sm rounded px-2 py-1 shadow-lg min-w-[200px] max-w-[300px] break-words">${tooltipMessage}</div></div></span>`;
   });
   
   return formattedText;

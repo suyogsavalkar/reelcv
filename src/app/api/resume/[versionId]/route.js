@@ -2,9 +2,9 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 
-export async function GET(request, { params }) {
+export async function GET(request) {
   try {
-    const { versionId } = params;
+    const versionId = request.nextUrl.pathname.split('/').pop();
     console.log('Loading version:', versionId);
 
     // Ensure correct file path

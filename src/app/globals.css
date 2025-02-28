@@ -86,9 +86,17 @@ body {
   position: fixed;
   bottom: 80px;
   left: 20px;
-  width: 100%;
+  width: calc(100% - 40px);
   max-width: 400px;
   z-index: 2000;
+}
+
+.notification-modal a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (min-width: 640px) {
