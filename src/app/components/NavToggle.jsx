@@ -90,7 +90,7 @@ export default function NavToggle({ onTabChange }) {
               >
                 <FaTimes />
               </button>
-              <p className="text-sm font-medium pr-6">Suyog wants you to know this</p>
+              <p className="text-sm font-medium pr-6">Suyog has attached a personal video message for you</p>
             </div>
           )}
         </div>

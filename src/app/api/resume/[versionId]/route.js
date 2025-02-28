@@ -5,10 +5,19 @@ import yaml from 'js-yaml';
 export async function GET(request) {
   try {
     const versionId = request.nextUrl.pathname.split('/').pop();
+    // Normalize the version ID by replacing underscores with hyphens
+    const normalizedVersionId = versionId.replace(/_/g, '-');
+    
+    // Redirect if the URL doesn't match the normalized version
+    if (versionId !== normalizedVersionId) {
+      const redirectUrl = request.nextUrl.pathname.replace(versionId, normalizedVersionId);
+      return Response.redirect(new URL(redirectUrl, request.nextUrl.origin));
+    }
+    
     console.log('Loading version:', versionId);
 
     // Ensure correct file path
-    const filePath = path.join(process.cwd(), 'src', 'app', 'data', 'versions', `${versionId}.yaml`);
+    const filePath = path.join(process.cwd(), 'src', 'app', 'data', 'versions', `${normalizedVersionId}.yaml`);
     console.log('File path:', filePath);
 
     // Check if file exists
