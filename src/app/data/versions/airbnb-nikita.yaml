@@ -1,0 +1,90 @@
+version:
+  id: airbnb-santosh
+  name: Product - Airbnb
+  description: Resume tailored for Airbnb Product role
+  # video: https://www.youtube.com/embed/HFShBjBMwSc
+  messages: 
+    - title: First of all
+      content: I absolutely love Airbnb ❤️. Please keep the great work coming.
+    - title: NaviSavi - A plus
+      content: I have already worked with NaviSavi, an US startup that is into social travel experiences. I am sure the experience would help me better understand and work at Airbnb.
+
+header:
+  name: Suyog Savalkar
+  email: suyog231002@gmail.com
+  phone: +91 7219380488
+  location: VIT
+  linkedin: LinkedIn
+
+education:
+  university: VIT
+  degree: Btech. Artificial Intelligence and Data Science
+  gpa: 8.60/10.0
+  period: 2024
+
+skills:
+  technical:
+    - Product Development
+    - Efficient prompting
+    - Market Research
+    - User Experience Design
+    - Storytelling
+    - Team Management
+    - Analytical Decision Making
+    - Full Stack Development
+    - Machine Learning
+
+projects:
+  - title: Currsive
+    role: Founder
+    dateRange: April 2021 - June 2022
+    achievements:
+      - "Founded an audio-blogging startup that uses Google's Deepmind wavenet models to help writers adapt to the changing landscape of content consumption."
+      - Successfully scaled Currsive to **2,000 weekly active users**, and established recurring revenue streams by securing two monthly paying clients.
+      - Learned about cross-functional team management, task prioritization and scaling an idea from zero to one.
+
+modal_experience:
+  - company: Cubyts
+    role: Machine Learning Product Management Intern
+    dateRange: June 2022 - October 2022
+    achievements:
+      - Collaborated closely with the product team as the first dedicated hire to launch and drive the organization’s AI initiative.
+      - Pointed out frictions on the platform by making the user journeys, proposed Lo-Fi wireframes, and made **30 AI/ML use cases** for the product.
+      - Learned how to make user journeys, detect and offer solutions for friction in a product, and make use cases for a product.
+
+
+experience:
+  - company: Fi Money
+    role: Product Management Intern
+    dateRange: February 2024 - August 2024
+    achievements:
+      - Worked with the Home and Rewards team to improve the user experience on the home page, create a better rewards system, and deliver impressions to other areas.
+      - Increased unique monthly redeeming users from **140k to 195k in just 25 days**  by introducing new catalog offers and creating a better reward value perception.
+      - Learned about stakeholder expectations management, end-to-end product execution, segmentation and experimentation, and complex data analysis.
+  - company: Jupiter Money
+    role: Product Management Intern
+    dateRange: July 2023 - January 2024
+    achievements:
+      - Worked with the Personal Finance Management team at Jupiter to enhance the accuracy of the transaction categorization model and increase feature adoption.
+      - Diagnosed and resolved a technical issue causing the misclassification of annual financial **transactions valued at INR ~2.4 Crore (~USD 285K)**.
+      - Learned about product metrics, how to drive growth in a particular metric, presenting ideas, and coordinating with the technical team and personal finance.
+  - company: "@@NaviSavi@@[Airbnb comes under the travel sector and Suyog has already worked with a startup in the sector.]"
+    role: Product and Entrepreneurship Intern
+    dateRange: March 2023 - July 2023
+    achievements:
+      - Worked with the co-founding team to align their fundraising efforts, improve the UX of the product and researched the US travel sector.
+      - Used a custom GPT implementation to accelerate fundraising, **increasing applications from 5 to 10+ per week**, contributing to a successful Techstars fundraise in Oct 2024.
+      - Learned about Venture capital, cold outreach, product bundling and merging, and user experience design.
+
+leadership:
+  - title: IIT Bombay, Eureka 2022
+    role: Vibe - Founder and Principal Storyteller
+    dateRange: 2021 - 2022
+    achievements:
+      - Led one of the teams that made it to the **top 4% teams**, into the zonal level of Asia's most prominent business model competition.
+      - Presented the idea of Vibe, a community-based SaaS platform for new-age music artists, and distribution to a panel of VCs and investment professionals.
+
+beyondWork:
+  - Love travelling - Seen most borders in India.
+  - Love music - Ex-spotify artist with 500 listeners.
+  - I'm always building something.
