@@ -1,0 +1,100 @@
+version:
+  id: spotify
+  name: Market Strategy & Operations Associate - Spotify
+  description: Resume tailored for Strategy & Operations Associate - Spotify
+  # video: https://www.youtube.com/embed/NvDozDo4e1M
+  messages: 
+    - title: First of all
+      content: I absolutely love Spotify ❤️. Top 1% user in India - wrapped 2024.
+    - title: Experience with the podcasting market
+      content: Founded a startup in the podcast space, scaling it to ~2000 active users—an area Spotify is heavily focused on.
+    - title: Experience with the music
+      content: I had a Spotify artist profile with ~500 monthly listeners.
+
+
+header:
+  name: Suyog Savalkar
+  email: suyog231002@gmail.com
+  phone: +91 7219380488
+  location: VIT
+  linkedin: LinkedIn
+
+education:
+  university: VIT
+  degree: Btech. Artificial Intelligence and Data Science
+  gpa: 8.60/10.0
+  period: 2024
+
+skills:
+  technical:
+    - Product Development
+    - Product Strategy
+    - Efficient prompting
+    - Market Research
+    - User Experience Design
+    - Storytelling
+    - Team Management
+    - Analytical Decision Making
+    - Full Stack Development
+    - Machine Learning
+    - Product Strategist
+  # tools:
+  #   - Data Analysis Tools
+  #   - AI/ML Frameworks
+  #   - Product Analytics
+  #   - Wireframing Tools
+  #   - Development Tools
+
+projects:
+  - title: Currsive
+    role: Founder
+    dateRange: April 2021 - June 2022
+    achievements:
+      - "@@Founded an audio-blogging startup@@[The role prefer someone who has previous experience in the podcasting market. Suyog found and successfully ran an AI podcast product for over an year and half.] that uses Google's Deepmind wavenet models to help writers adapt to the changing landscape of content consumption."
+      - Successfully scaled Currsive to **2,000 weekly active users**, and established recurring revenue streams by securing two monthly paying clients.
+      - Learned about cross-functional team management, task prioritization and scaling an idea from zero to one.
+
+modal_experience:
+  - company: NaviSavi
+    role: Product and Entrepreneurship Intern
+    dateRange: March 2023 - July 2023
+    achievements:
+      - Worked with the co-founding team to align their fundraising efforts, improve the UX of the product and researched the US travel sector.
+      - Used a custom GPT implementation to accelerate fundraising, **increasing applications from 5 to 10+ per week**, contributing to a successful Techstars fundraise in Oct 2024.
+      - Learned about Venture capital, cold outreach, product bundling and merging, and user experience design.
+
+experience:
+  - company: Fi Money
+    role: Product Manager
+    dateRange: February 2024 - August 2024
+    achievements:
+      - Worked with the Home and Rewards team to improve the user experience on the home page, create a better rewards system, and deliver impressions to other areas.
+      - Increased unique monthly redeeming users from **140k to 195k in just 25 days**  by introducing new catalog offers and creating a better reward value perception.
+      - Learned about stakeholder expectations management, end-to-end product execution, segmentation and experimentation, and complex data analysis.
+  - company: Jupiter Money
+    role: Product Management Intern
+    dateRange: July 2023 - January 2024
+    achievements:
+      - Worked with the Personal Finance Management team at Jupiter to enhance the accuracy of the transaction categorization model and increase feature adoption.
+      - Diagnosed and resolved a technical issue causing the misclassification of annual financial **transactions valued at INR ~2.4 Crore (~USD 285K)**.
+      - Learned about product metrics, how to drive growth in a particular metric, presenting ideas, and coordinating with the technical team and personal finance.
+  - company: Cubyts
+    role: Machine Learning Product Management Intern
+    dateRange: June 2022 - October 2022
+    achievements:
+      - Collaborated closely with the product team as the first dedicated hire to launch and drive the organization’s AI initiative.
+      - Pointed out frictions on the platform by making the user journeys, proposed Lo-Fi wireframes, and made **30 AI/ML use cases** for the product.
+      - Learned how to make user journeys, detect and offer solutions for friction in a product, and make use cases for a product.
+
+leadership:
+  - title: IIT Bombay, Eureka 2022
+    role: Vibe - Founder and Principal Storyteller
+    dateRange: 2021 - 2022
+    achievements:
+      - Led one of the teams that made it to the **top 4% teams**, into the zonal level of Asia's most prominent business model competition.
+      - Presented the idea of Vibe, a community-based SaaS platform for new-age music artists, and distribution to a panel of VCs and investment professionals.
+
+beyondWork:
+  - Love travelling - Seen most borders in India.
+  - Love music - @@Ex-spotify artist with 500 listeners.@@[Always been a true spotify user and a music enthusiast!]
+  - I'm always building something.
