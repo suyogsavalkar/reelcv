@@ -114,8 +114,8 @@ export default function NavToggle({ onTabChange }) {
         <div className="text-gray-600 text-xs flex items-center">
           <span className="whitespace-nowrap">Made with</span>
           <FaHeart className="text-red-500 mx-1 inline-block animate-pulse" />
-          <span className="hidden sm:inline whitespace-nowrap">in Windsurf and Trae</span>
-          <span className="sm:hidden whitespace-nowrap">in Windsurf and Trae</span>
+          <span className="hidden sm:inline whitespace-nowrap">by Suyog</span>
+          <span className="sm:hidden whitespace-nowrap">by Suyog</span>
         </div>
       </div>
 
